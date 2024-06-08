@@ -194,10 +194,8 @@ dl:hover {
 }
 
 .card {
-	margin: 1em auto 0;
 	max-width: 100%;
 	padding: 1em;
-	width: 350px;
 }
 
 .card:after {
@@ -224,7 +222,6 @@ dd {
 		float: left;
 		margin: 1em 0 0 0;
 		padding-right: 1em;
-		text-align: right;
 		width: 35%;
 	}
 	dd {
