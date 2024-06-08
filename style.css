@@ -160,3 +160,42 @@ width:50%;
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.gap-16 {
+    gap: 4rem;
+}
+.grid {
+    display: grid;
+}
+
+.leading-loose {
+    line-height: 2;
+}
+.font-bold {
+    font-weight: 700;
+}
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.mb-2 {
+    margin-bottom: .5rem;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+}
+
+.red-star {
+    color: red;
+}
