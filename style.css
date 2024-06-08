@@ -69,7 +69,7 @@ width:70%;
 }
 
 .middle-container {
-  margin: 10px 0;
+  margin: 50px ;
 }
 
 .bottom-container {
@@ -88,7 +88,7 @@ width:70%;
 }
 
 .intro {
-  width: 50%;
+  width: 70%;
   margin: auto;
   text-align: justify;
 }
@@ -159,8 +159,8 @@ width:70%;
     padding-bottom: 2rem;
 }
 .px-6 {
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 .gap-16 {
     gap: 4rem;
@@ -186,4 +186,48 @@ width:70%;
 }
 dl:hover {
   color: red;
+}
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+.card {
+	margin: 1em auto 0;
+	max-width: 100%;
+	padding: 1em;
+	width: 350px;
+}
+
+.card:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0;
+
+	+ dt {
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	dt {
+		clear: both;
+		float: left;
+		margin: 1em 0 0 0;
+		padding-right: 1em;
+		text-align: right;
+		width: 35%;
+	}
+	dd {
+		float: right;
+		margin: 1em 0 0 0;
+		width: 65%;
+	}
 }
