@@ -40,7 +40,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #EAF6F6;
+  color: #66BFBF;
 }
 p {
 line-height: 2;
@@ -84,7 +84,7 @@ width:70%;
   text-align: left;
 }
 
-.pro {
+.data {
   text-decoration: underline;
 }
 
@@ -105,30 +105,6 @@ margin: 40px auto 60px;
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
-.code-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.chilli-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
 }
 
 .btn {
@@ -188,17 +164,15 @@ margin: 40px auto 60px;
     color: #FFD133;
 }
 dl:hover {
-  color: red;
+  color: #66BFBF;
 }
 *, *:after, *:before {
 	box-sizing: border-box;
 }
-
 .card {
 	max-width: 100%;
 	padding: 1em;
 }
-
 .card:after {
 	clear: both;
 	content: '';
